@@ -82,4 +82,18 @@ fun main() {
         }
     }
     // Result = 0 Result =0 ... Result = 20 Result = 25
+
+    // Quiz 4. 이 코드는 무엇을 출력합니까
+    var isConnected = connect(5)
+    print(isConnected)
+    // true
+    }
+
+// Quiz 4.
+fun connect(num1: Int): Boolean{ // 함수 선언 :뒤는 반환 값의 데이터 형식
+    var result = false
+    if(num1 > 0){
+        result = true
+        }
+    return result
 }
