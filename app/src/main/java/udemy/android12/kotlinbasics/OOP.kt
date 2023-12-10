@@ -25,7 +25,13 @@ fun main(){
 }
 
 // 보조생성자는 객체 생성 시 값을 추가하게 해줘
-// 객체 생성한다 = class의 instance를 생성한다. (주로 main 함수 내)
+// use primary or secondary Constructor -> create an object = class의 instance를 생성한다. (주로 main 함수 내)
+
+// class : blueprint for creating objects 객체 청사진
+// object 객체 : instance of class 클래스 참조
+// constructors : class 안 정의. class 이름과 동일. object가 생성될 때 호출. -> 초기상태 설정
+// method : class 안의 함수 -> class의 일반 동작 정의
+
 class Person(firstName: String = "Amy", lastName: String = "Park"){
     // Member Variables 멤버변수 (= Properties 프로퍼티)
     // : class 안의 변수
