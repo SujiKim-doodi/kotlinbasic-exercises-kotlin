@@ -14,8 +14,8 @@ data class User(val id:Long, var name : String) // 기본적으로 public 접근
 fun main(){
     val user1 = User(1, "Suji") // 데이터 클래스 객체 생성
 
-    val name = user1.name
-    println(name)
+//    val name = user1.name
+//    println(name)
     user1.name = "Sarah"
 
     val user2 = User(2,"Sarah")
